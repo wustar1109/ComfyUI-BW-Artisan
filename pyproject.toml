@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-bw-artisan"
+description = "A comprehensive Black & White Fine Art architecture processing suite for ComfyUI"
+version = "1.0.0"
+license = { text = "MIT" }
+dependencies = ["opencv-python", "numpy", "torch"]
+readme = "README.md"
+
+[project.urls]
+Repository = "" 
+# (可选) 填入你的 GitHub 地址，没有就留空
+
+[tool.comfy]
+PublisherId = "wu1575" 
+# 【重要】请务必填入你在 registry.comfy.org 注册的 ID (就是 @ 后面的名字)
+DisplayName = "BW Artisan Pro V6"
+Icon = ""
